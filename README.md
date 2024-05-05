@@ -16,9 +16,9 @@ Or to your Leiningen project file:
 
     [org.ring-clojure/ring-websocket-middleware "0.1.0-SNAPSHOT"]
 
-## Usage
+## Documentation
 
-TODO
+- [API Docs](http://ring-clojure.github.io/ring-websocket-middleware)
 
 ## License
 
