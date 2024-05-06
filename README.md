@@ -10,11 +10,11 @@ way into Ring-Core.
 
 Add the following dependency to your deps.edn file:
 
-    org.ring-clojure/ring-websocket-middleware {:mvn/version "0.1.0"}
+    org.ring-clojure/ring-websocket-middleware {:mvn/version "0.2.0"}
 
 Or to your Leiningen project file:
 
-    [org.ring-clojure/ring-websocket-middleware "0.1.0"]
+    [org.ring-clojure/ring-websocket-middleware "0.2.0"]
 
 ## Documentation
 
