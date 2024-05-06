@@ -1,8 +1,8 @@
-(ns ring.middleware.websocket-keepalive-test
+(ns ring.websocket.keepalive-test
   (:require [clojure.test :refer [deftest is testing]]
             [ring.websocket :as ws]
             [ring.websocket.protocols :as wsp]
-            [ring.middleware.websocket-keepalive :as ka]))
+            [ring.websocket.keepalive :as ka]))
 
 (deftest test-websocket-keepalive-request
   (testing "websocket pings"

@@ -1,4 +1,4 @@
-(ns ring.middleware.websocket-keepalive
+(ns ring.websocket.keepalive
   (:require [ring.websocket :as ws]
             [ring.websocket.protocols :as wsp])
   (:import [java.util.concurrent
