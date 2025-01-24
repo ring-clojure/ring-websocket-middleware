@@ -1,4 +1,4 @@
-(defproject org.ring-clojure/ring-websocket-middleware "0.2.0"
+(defproject org.ring-clojure/ring-websocket-middleware "0.2.1"
   :description "Library with additional middleware for Ring websockets"
   :url "https://github.com/ring-clojure/ring-websocket-middleware"
   :license {:name "The MIT License"
