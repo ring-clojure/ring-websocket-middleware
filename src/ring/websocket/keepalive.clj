@@ -16,7 +16,7 @@
    (if (ws/websocket-response? response)
      (let [listener (::ws/listener response)
            executor (:executor options @default-schedule-executor)
-           period   (:period options 30000)
+           period   (:period options 20000)
            task     (promise)]
        (assoc response ::ws/listener
               (reify wsp/Listener
@@ -46,7 +46,7 @@
   "Middleware that adds a periodic ping to WebSocket responses, in order to
   stop them from timing out. Takes the following options:
 
-    :period   - the time in milliseconds between pings (default 30000)
+    :period   - the time in milliseconds between pings (default 20000)
     :executor - a custom ScheduledExecutorService to handle scheduling"
   ([handler]
    (wrap-websocket-keepalive handler {}))
